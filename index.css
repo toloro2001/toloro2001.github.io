@@ -1,0 +1,37 @@
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.mySlides {
+    position: relative;
+    border: 20px solid #9cffc4;
+
+    width: 1000px;
+    z-index: 1;
+    border-right:10px solid #ff00dd;
+    border-left: 10px solid #ff00dd;
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-image: url("star.gif");
+    width: 100%;
+    height: auto;
+    color: white;
+}
+h1{
+   color:#ff00dd;
+    background-color:#9cffc4;
+    display: flex; 
+    justify-content: center;
+}
+h3{
+    color:#9cffc4;
+    background-color: #ff00dd;
+}
+h2{
+display:flex;
+justify-content:center;
+}
