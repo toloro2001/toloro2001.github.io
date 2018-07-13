@@ -19,7 +19,7 @@ body {
     background-image: url("star.gif");
     width: 100%;
     height: auto;
-    color: white;
+    color: #ff00dd;
 }
 h1{
    color:#ff00dd;
@@ -34,4 +34,8 @@ h3{
 h2{
 display:flex;
 justify-content:center;
+}
+h5{ 
+    background-color: #9cffc4;
+
 }
