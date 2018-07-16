@@ -14,12 +14,14 @@ img {
     border-left: 10px solid #ff00dd;
     display: flex;
     justify-content: center;
+    cursor: crosshair;
 }
 body {
     background-image: url("star.gif");
     width: 100%;
     height: auto;
     color: #ff00dd;
+    
 }
 h1{
    color:#ff00dd;
