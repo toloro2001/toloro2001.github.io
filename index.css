@@ -8,7 +8,8 @@ img {
     position: relative;
     border: 20px solid #9cffc4;
 
-    width: 1000px;
+    height: 400px;
+    width:auto;
     z-index: 1;
     border-right:10px solid #ff00dd;
     border-left: 10px solid #ff00dd;
@@ -40,4 +41,11 @@ justify-content:center;
 h5{ 
     background-color: #9cffc4;
 
+}
+ .jpg {
+    width: 50%;
+    height: 100px;
+}
+div.row.column.twins {
+    transform: rotate(90 deg);
 }
