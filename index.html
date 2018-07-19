@@ -51,6 +51,7 @@ body {
   <a href="q&a.html">Q&A</a>
   <a href="achievements.html">Achievements</a>
   <a class="active" href="index.html">About Me</a>
+  <a href="silly.html"> Silly Stuff</a>
   
 </div>
 <script>
@@ -142,7 +143,7 @@ body {
                     myIndex++;
                     if (myIndex > x.length) { myIndex = 1 }
                     x[myIndex - 1].style.display = "block";
-                    setTimeout(carousel, 12000); // Change image every 2 seconds
+                    setTimeout(carousel, 8000); // Change image every 2 seconds
                 }
             </script>
 
@@ -193,170 +194,372 @@ body {
     </h3>
     <h2>
         My Family
-    </h2>
+    </h2> 
     <p>
 
-        <html>
-        <style>
-            * {
-                box-sizing: border-box;
-            }
+    
+     Mom (left), Dad(right) Shawn (center). the rest are interviews of my siblings
+    </p>
+    <p>
+        <img src="1513988327255.jpg" >
+        <img src="WP_20161030_001001_1513024554744_001.jpg" >
+        <img src="20180623_140033_1531346865152.jpg">
 
-            body {
-                margin: 0;
-                font-family: Arial;
-            }
-
-            .header {
-                text-align: center;
-                padding: 32px;
-            }
-
-            .row {
-                display: -ms-flexbox;
-              
-                display: flex;
-                -ms-flex-wrap: wrap;
-               
-                flex-wrap: wrap;
-                padding: 0 4px;
-            }
-
-           
-
-            .column {
-                -ms-flex: 50%;
-               
-                flex: 50%;
-                padding: 0 4px;
-            }
-
-            .column img {
-                margin-top: 8px;
-                vertical-align: middle;
-            }
-
-           
-
-            .btn {
-                border: none;
-                outline: none;
-                padding: 10px 16px;
-                background-color: #9cffc4;
-                color: #ff00dd;
-                cursor: pointer ;
-                font-size: 18px;
-            }
-
-            .btn:hover {
-                background-color:white;
-                color: black;
-            }
-
-            .btn.active {
-                background-color:#ff00dd;
-                color:  #9cffc4;
-            }
-        </style>
-
-        <body>
-
-            <!-- Header -->
-            <div class="header" id="myHeader">
-                <button class="btn" onclick="one()" >1</button>
-                <button class="btn active" onclick="two()">2</button>
-                <button class="btn" onclick="four()">4</button>
-            </div>
-
-            <!-- Photo Grid -->
-
-            <div class="row">
-
-                <div class="column">
-                    <twins>
-                    <img src="image_20171222_101341_-1645332127.jpg" style="width:100%">
-                    <img src="20180606_092115.jpg" style="width:100%">
-                    <img src="20180608_190243_1531346942961.jpg" style="width:100%">
-                    <img src="ContactPhoto-IMG_20180607_101457.jpg" style="width:100%">
-                    <img src="image_20171222_101915_-2112576988.jpg" style="width:100%">
-                       </twins>
-                </div>
-                <div class="column">
-                    <!--bella-->
-                    <img src="image_20171222_101038_-712160953.jpg" style="width:100%">
-                    <img src="image_20171222_101123_1513523162.jpg" style="width:100%">
-                    <img src="20180606_092802.jpg" style="width:100%">
-                    <img src="meandB.jpg" style="width:100%">
-                </div>
-                <div class="column">
-                    <!--mom&dad-->
-                    <img src="20180623_140033_1531346865152.jpg" style="width:100%">
-                    <img src="20171222_191843.jpg" style="width:100%">
-                    <img src="image_20171222_101444_1212256847.jpg" style="width:100%">
-                    <img src="20180609_071436.jpg" style="width:100%">
-                    <img src="20171222_191857.jpg" style="width:100%">
-
-                </div>
-                
-
-
-                    <div class="column">
-                        <!--extended family& shawn-->
-                        <img src="WP_20161030_001001_1513024554744_001.jpg" style="width:100%" style="height: 250px">
-                        <img src="20180605_161015_1528229426978_1531346991635.jpg" style="width:100%">
-                        <img src="image_20171222_101835_-996472628.jpg" style="width:100%">
-                        <img src="20180606_093314.jpg" style="width:100%">
-                        <img src="20180707_145833_1531346821056.jpg" style="width:100%">
-                        
-
+    </p>
+    <p>
+            <html>
+                    <head>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <style>
+                    * {
+                        box-sizing: border-box;
+                    }
+                    video {
+                        width: 100%;
+                        height: auto;
+                    }
+                    .row:after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                    }
+                    [class*="col-"] {
+                        float: left;
+                        padding: 15px;
+                        width: 100%;
+                    }
+                    @media only screen and (min-width: 600px) {
+                        .col-s-1 {width: 8.33%;}
+                        .col-s-2 {width: 16.66%;}
+                        .col-s-3 {width: 25%;}
+                        .col-s-4 {width: 33.33%;}
+                        .col-s-5 {width: 41.66%;}
+                        .col-s-6 {width: 50%;}
+                        .col-s-7 {width: 58.33%;}
+                        .col-s-8 {width: 66.66%;}
+                        .col-s-9 {width: 75%;}
+                        .col-s-10 {width: 83.33%;}
+                        .col-s-11 {width: 91.66%;}
+                        .col-s-12 {width: 100%;}
+                    }
+                    @media only screen and (min-width: 768px) {
+                        .col-1 {width: 8.33%;}
+                        .col-2 {width: 16.66%;}
+                        .col-3 {width: 25%;}
+                        .col-4 {width: 33.33%;}
+                        .col-5 {width: 41.66%;}
+                        .col-6 {width: 50%;}
+                        .col-7 {width: 58.33%;}
+                        .col-8 {width: 66.66%;}
+                        .col-9 {width: 75%;}
+                        .col-10 {width: 83.33%;}
+                        .col-11 {width: 91.66%;}
+                        .col-12 {width: 100%;}
+                    }
+                    html {
+                        font-family: "Lucida Sans", sans-serif;
+                    }
+                    .header {
+                        background-color: #9cffc4;
+                        color: #ff00dd;
+                        padding: 15px;
+                    }
+                    .menu ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    .menu li {
+                        padding: 8px;
+                        margin-bottom: 7px;
+                        background-color: #9cffc4;
+                        color: #ff00dd;
+                        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                    }
+                    .menu li:hover {
+                        background-color: #9cffc4;
+                    }
+                    .aside {
+                        background-color: #9cffc4;
+                        padding: 15px;
+                        color: #ff00dd;
+                        text-align: center;
+                        font-size: 14px;
+                        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                    }
+                    .footer {
+                        background-color: #9cffc4;
+                        color: #ff00dd;
+                        text-align: center;
+                        font-size: 12px;
+                        padding: 15px;
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    
+                    
+                    <div class="col-6 col-s-9">
+                      <h1>Bella Interview</h1>
+                      <p></p>
+                      <video width="400" controls>
+                        <source src="binterview (convert-video-online.com).mp4" type="video/mp4">
+                        <source src="binterview.ogg" type="video/ogg">
+                        </video>
+                        <style>
+                            h1{
+                                color: #9cffc4;
+                                background-color: #ff00dd
+                            }
+                        </style>
                     </div>
-                </div>
+                    
+                    
+                    </div>
+                    
+                    <div class="footer">
+                    
+                    </div>
+                    
+                    </body>
+                    </html>
 
-                <script>
-                    // Get the elements with class="column"
-                    var elements = document.getElementsByClassName("column");
+                    <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #9cffc4;
+    color: #ff00dd;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #9cffc4;
+    color: #ff00dd;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #9cffc4;
+}
+.aside {
+    background-color: #9cffc4;
+    padding: 15px;
+    color: #ff00dd;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #9cffc4;
+    color: #ff00dd;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+</style>
+</head>
+<body>
 
-                    // Declare a loop variable
-                    var i;
 
-                    // Full-width images
-                    function one() {
-                        for (i = 0; i < elements.length; i++) {
-                            elements[i].style.msFlex = "100%";  // IE10
-                            elements[i].style.flex = "100%";
-                        }
+
+<div class="col-6 col-s-9">
+  <h1>Angel interview</h1>
+  <p></p>
+  <video width="400" controls>
+    <source src="ainterview.mp4" type="video/mp4">
+    <source src="ainterview.ogg" type="video/ogg">
+    </video>
+    <style>
+        h1{
+            color: #9cffc4;
+            background-color: #ff00dd
+        }
+    </style>
+</div>
+
+
+</div>
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>
+    </p>
+    <p>
+            <html>
+                    <head>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <style>
+                    * {
+                        box-sizing: border-box;
                     }
-
-                    // Two images side by side
-                    function two() {
-                        for (i = 0; i < elements.length; i++) {
-                            elements[i].style.msFlex = "50%";  // IE10
-                            elements[i].style.flex = "50%";
-                        }
+                    video {
+                        width: 100%;
+                        height: auto;
                     }
-
-                    // Four images side by side
-                    function four() {
-                        for (i = 0; i < elements.length; i++) {
-                            elements[i].style.msFlex = "25%";  // IE10
-                            elements[i].style.flex = "25%";
-                        }
+                    .row:after {
+                        content: "";
+                        clear: both;
+                        display: table;
                     }
-
-                    // Add active class to the current button (highlight it)
-                    var header = document.getElementById("myHeader");
-                    var btns = header.getElementsByClassName("btn");
-                    for (var i = 0; i < btns.length; i++) {
-                        btns[i].addEventListener("click", function () {
-                            var current = document.getElementsByClassName("active");
-                            current[0].className = current[0].className.replace(" active", "");
-                            this.className += " active";
-                        });
+                    [class*="col-"] {
+                        float: left;
+                        padding: 15px;
+                        width: 100%;
                     }
-                </script>
-
-        </body>
-
-        </html>
+                    @media only screen and (min-width: 600px) {
+                        .col-s-1 {width: 8.33%;}
+                        .col-s-2 {width: 16.66%;}
+                        .col-s-3 {width: 25%;}
+                        .col-s-4 {width: 33.33%;}
+                        .col-s-5 {width: 41.66%;}
+                        .col-s-6 {width: 50%;}
+                        .col-s-7 {width: 58.33%;}
+                        .col-s-8 {width: 66.66%;}
+                        .col-s-9 {width: 75%;}
+                        .col-s-10 {width: 83.33%;}
+                        .col-s-11 {width: 91.66%;}
+                        .col-s-12 {width: 100%;}
+                    }
+                    @media only screen and (min-width: 768px) {
+                        .col-1 {width: 8.33%;}
+                        .col-2 {width: 16.66%;}
+                        .col-3 {width: 25%;}
+                        .col-4 {width: 33.33%;}
+                        .col-5 {width: 41.66%;}
+                        .col-6 {width: 50%;}
+                        .col-7 {width: 58.33%;}
+                        .col-8 {width: 66.66%;}
+                        .col-9 {width: 75%;}
+                        .col-10 {width: 83.33%;}
+                        .col-11 {width: 91.66%;}
+                        .col-12 {width: 100%;}
+                    }
+                    html {
+                        font-family: "Lucida Sans", sans-serif;
+                    }
+                    .header {
+                        background-color: #9cffc4;
+                        color: #ff00dd;
+                        padding: 15px;
+                    }
+                    .menu ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    .menu li {
+                        padding: 8px;
+                        margin-bottom: 7px;
+                        background-color: #9cffc4;
+                        color: #ff00dd;
+                        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                    }
+                    .menu li:hover {
+                        background-color: #9cffc4;
+                    }
+                    .aside {
+                        background-color: #9cffc4;
+                        padding: 15px;
+                        color: #ff00dd;
+                        text-align: center;
+                        font-size: 14px;
+                        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                    }
+                    .footer {
+                        background-color: #9cffc4;
+                        color: #ff00dd;
+                        text-align: center;
+                        font-size: 12px;
+                        padding: 15px;
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    
+                    
+                    <div class="col-6 col-s-9">
+                      <h1>Eliza interview</h1>
+                      <p></p>
+                      <video width="400" controls>
+                        <source src="einterview.mp4" type="video/mp4">
+                        <source src="einterview.ogg" type="video/ogg">
+                        </video>
+                        <style>
+                            h1{
+                                color: #9cffc4;
+                                background-color: #ff00dd
+                            }
+                        </style>
+                    </div>
+                    
+                    
+                    </div>
+                    
+                    <div class="footer">
+                    
+                    </div>
+                    
+                    </body>
+                    </html>
     </p>
 </body>
